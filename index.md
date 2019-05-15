@@ -6,7 +6,7 @@
 
 * 1、[About 项目规划](01-about)
 * 2、[Team profile 团队组建](02-team-profile)
-* 3、[Investigation 项目前期调研](03-investigation)
+* 3、[Investigation 项目前期调研](校园bus/03-investigation)
 * 4、[Vision 项目愿景](04-vision)
 * 5、[Product Backlog 产品特性](05-product-backlog)
 * 6、Requirement specification 需求规格说明
