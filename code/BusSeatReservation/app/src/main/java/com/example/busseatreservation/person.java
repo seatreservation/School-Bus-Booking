@@ -1,4 +1,4 @@
-﻿package com.example.busseatreservation;
+package com.example.busseatreservation;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -101,6 +101,30 @@ public class person extends AppCompatActivity {
     //
     void delete(){
 
-        
+        final AVQuery<AVObject> query1 = new AVQuery<>("info");
+        query1.whereEqualTo("name",name);
+        query1.whereEqualTo("time",time);
+        query1.whereEqualTo("way",way);
+        query1.whereEqualTo("zw",zw);
+        query1.whereEqualTo("ps",ps);
+        query1.findInBackground(new FindCallback<AVObject>() {
+            @Override
+            public void done(List<AVObject> list, AVException e) {
+                if(e==null)
+                {
+                    query1.deleteAllInBackground(new DeleteCallback() {
+                        @Override
+                        public void done(AVException e) {
+
+                        }
+                    });
+                }
+                else{
+
+                }
+            }
+        });
+    }
+
 
 }

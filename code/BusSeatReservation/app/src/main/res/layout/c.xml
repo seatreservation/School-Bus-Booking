@@ -9,5 +9,5 @@
         android:state_pressed="true"
         android:drawable="@drawable/buttonshape_down_2" />
     <item
-        android:drawable="@drawable/buttonshape_2" android:state_window_focused="false"/> 是否获得焦点状态
+        android:drawable="@drawable/buttonshape_2" android:state_window_focused="false"/> <!-->是否获得焦点状态<-->
 </selector>

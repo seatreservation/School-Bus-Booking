@@ -5,4 +5,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">12306官网</string>
+
+    <string-array name="text">
+    <item>右滑订座位</item>
+    </string-array>
 </resources>
