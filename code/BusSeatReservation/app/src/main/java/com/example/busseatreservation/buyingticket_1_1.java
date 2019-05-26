@@ -1,4 +1,4 @@
-﻿package com.example.busseatreservation;
+package com.example.busseatreservation;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -105,6 +105,24 @@ public class buyingticket_1_1 extends AppCompatActivity {
 
     }
     void save(){
-      
+        AVObject inf=new AVObject("info");
+        inf.put("name",name);
+        inf.put("lc",lc);
+        inf.put("way",way);
+        inf.put("zw",zw);
+        inf.put("ps",ps);
+        inf.put("time",time);
+        inf.saveInBackground(new SaveCallback() {
+            @Override
+            public void done(AVException e) {
+                if(e==null){
+                    Toast.makeText(buyingticket_1_1.this, "购票成功", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    Toast.makeText(buyingticket_1_1.this, "购票失败，请检查网络", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
 
 }
