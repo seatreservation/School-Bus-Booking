@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.animation.AnimationUtils;
+import android.view.animation.LayoutAnimationController;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -66,6 +68,7 @@ public class buyingticket_1 extends AppCompatActivity {
                 new String[] {"ItemImage","ItemTitle","ItemText2", "ItemText"},
                 new int[] {R.id.ItemImage,R.id.ItemTitle,R.id.ItemText2,R.id.ItemText});
         lv2.setAdapter(mSimpleAdapter);//为ListView绑定适配器
+
         lv2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
