@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="#ffffff"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <ListView
@@ -8,6 +9,12 @@
         android:layout_height="350dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:divider="#76ff03"
+        android:dividerHeight="3dp"
+        android:theme="@style/BaseAppTheme"
+        android:layoutAnimation="@anim/list_layout_controller"
+        android:background="@drawable/item_selector"
+
         android:layout_below="@+id/textView14" />
 
     <TextView
@@ -16,8 +23,9 @@
         android:layout_height="50dp"
         android:layout_marginTop="11dp"
         android:text="TextView"
-        android:textColor="@color/colorAccent"
+        android:textColor="#1a237e"
         android:textSize="20sp"
+        android:textStyle="italic"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -32,7 +40,7 @@
         android:layout_toEndOf="@+id/textView14"
         android:layout_toRightOf="@+id/textView14"
         android:text="TextView"
-        android:textColor="@color/colorAccent"
+        android:textColor="#1a237e"
         android:textSize="20sp" />
 
     <TextView
@@ -44,6 +52,7 @@
         android:layout_marginTop="31dp"
         android:text="点击车次进入选座页面"
         android:textAlignment="center"
-        android:textColor="@color/colorAccent"
+        android:textColor="#1a237e"
+        android:textStyle="italic"
         android:textSize="30sp" />
 </RelativeLayout>
