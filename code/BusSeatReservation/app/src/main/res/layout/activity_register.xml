@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                              xmlns:app="http://schemas.android.com/apk/res-auto"
                                              xmlns:tools="http://schemas.android.com/tools"
                                              android:layout_width="match_parent"
                                              android:layout_height="match_parent"
-                                             tools:context=".registerActivity">
+                                             tools:context=".registerActivity"
+                                             android:background="#ffffff">
+
+
 
     <EditText
             android:id="@+id/rename"
@@ -14,15 +18,15 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="180dp"
+            android:layout_marginTop="251dp"
             android:ems="10"
             android:hint="请输入你的账号"
             android:inputType="textPersonName"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:textColor="#000000"
+            android:textColorHint="#999999"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"/>
 
     <EditText
             android:id="@+id/reemail"
@@ -36,12 +40,12 @@
             android:ems="10"
             android:hint="请输入注册邮箱"
             android:inputType="textEmailAddress"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:textColor="#000000"
+            android:textColorHint="#999999"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rename" />
+            app:layout_constraintTop_toBottomOf="@+id/rename"/>
 
     <EditText
             android:id="@+id/repwd"
@@ -53,42 +57,53 @@
             android:ems="10"
             android:hint="请输入你的密码"
             android:inputType="textPassword"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:textColor="#000000"
+            android:textColorHint="#999999"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.528"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/reemail" />
+            app:layout_constraintTop_toBottomOf="@+id/reemail"/>
 
-    <Button
+    <Button style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/Re"
             android:layout_width="280dp"
-            android:layout_height="32dp"
+            android:layout_height="50dp"
             android:layout_marginEnd="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="24dp"
-            android:text="Register"
+            android:layout_marginTop="50dp"
+            android:text="注册"
             android:textColor="#ffffff"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/repwd" />
+            app:layout_constraintTop_toBottomOf="@+id/repwd"/>
 
-    <Button
+    <Button style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/cancel"
-            android:layout_width="280dp"
-            android:layout_height="32dp"
+            android:layout_width="278dp"
+            android:layout_height="50dp"
             android:layout_marginEnd="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="24dp"
-            android:text="Cancel"
+            android:text="返回"
             android:textColor="#ffffff"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Re" />
+            app:layout_constraintTop_toBottomOf="@+id/Re"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView4"
+            tools:layout_editor_absoluteX="8dp"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="32dp"/>
 </android.support.constraint.ConstraintLayout>
 

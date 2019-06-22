@@ -3,15 +3,13 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="27dp"
-        android:text="在此您可以查看已购车票"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="在此您可以查看已购车票，请带齐行李证件车票，祝您旅途愉快(*^▽^*)~~"
+            android:textColor="#999999"
+            android:textSize="24sp"
+            android:layout_alignTop="@+id/lv" android:layout_marginTop="500dp"/>
 
     <ListView
         android:id="@+id/lv"
