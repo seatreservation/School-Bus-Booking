@@ -40,8 +40,8 @@ public class buyingticket_1_1 extends AppCompatActivity {
         }
         categories2.add("A座");
         categories2.add("B座");
+        categories2.add("C座");
         categories2.add("D座");
-        categories2.add("E座");
 
         ArrayAdapter<String> dataAdapter=new ArrayAdapter<String>(buyingticket_1_1.this,android.R.layout.simple_spinner_item,categories);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -74,7 +74,7 @@ public class buyingticket_1_1 extends AppCompatActivity {
             }
         });
         //确认按钮
-        Button b1=(Button)findViewById(R.id.button7);
+        final View b1=(View)findViewById(R.id.button7);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

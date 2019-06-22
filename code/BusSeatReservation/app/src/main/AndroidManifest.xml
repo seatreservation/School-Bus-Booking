@@ -4,7 +4,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <application
             android:allowBackup="true"
@@ -15,34 +15,63 @@
             android:theme="@style/AppTheme"
             android:name=".MyLeanCloudApp" >
         <activity android:name=".loginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+             <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+     </activity>
+     <activity android:name=".person">
+        <!--><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter><-->
+    </activity>
+    <activity android:name=".test1">
+       <!--> <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter><-->
+    </activity>
+    <activity android:name=".train_info">
+       <!--> <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter><-->
+    </activity>
+    <activity android:name=".train_info_1">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".person"></activity>
-        <activity android:name=".test1"></activity>
-        <activity android:name=".train_info"></activity>
-        <activity android:name=".train_info_1"></activity>
-        <activity android:name=".train_info_2"></activity>
-        <activity android:name=".train_info_3"></activity>
-        <activity android:name=".buyingticket"></activity>
-        <activity android:name=".buyingticket_1"></activity>
-        <activity android:name=".buyingticket_1_1"></activity>
-        <activity android:name=".MainActivity"
-                  android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".registerActivity" />
+    </activity>
+    <activity android:name=".train_info_2">
 
-        <!-- 即时通讯模块、推送（均需要加入以下声明） START -->
+    </activity>
+    <activity android:name=".train_info_3"></activity>
+    <activity android:name=".buyingticket">
+        <!--><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter><-->
+    </activity>
+    <activity android:name=".buyingticket_1">
+
+    </activity>
+    <activity android:name=".buyingticket_1_1">
+
+</activity>
+<activity android:name=".MainActivity"
+          android:theme="@style/AppTheme.NoActionBar">
+
+</activity>
+<activity android:name=".registerActivity" />
+
+<!-- 即时通讯模块、推送（均需要加入以下声明） START -->
         <!-- 即时通讯模块、推送都要使用 PushService -->
         <service android:name="com.avos.avoscloud.PushService"/>
         <receiver android:name="com.avos.avoscloud.AVBroadcastReceiver">
-            <intent-filter>
+           <!--> <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
                 <action android:name="android.intent.action.USER_PRESENT"/>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
+            </intent-filter><-->
         </receiver>
         <!-- 即时通讯模块、推送 END -->
 
