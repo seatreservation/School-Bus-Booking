@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <Spinner
@@ -9,7 +10,13 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="72dp" />
+        android:layout_marginTop="72dp"
+        android:background="@drawable/spinner_bg"
+        android:dropDownWidth="200dp"
+        android:paddingRight="14dp"
+        android:popupBackground="#008577"
+        android:popupElevation="3dp"
+        android:stateListAnimator="@drawable/spinner_sla"/>
 
     <TextView
         android:id="@+id/textView"
@@ -40,33 +47,43 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView3"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/spinner_bg"
+        android:dropDownWidth="200dp"
+        android:paddingRight="14dp"
+        android:popupBackground="#008577"
+        android:popupElevation="3dp"
+        android:stateListAnimator="@drawable/spinner_sla"/>
 
-    <Button style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView3"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/textView3"
-            android:layout_marginBottom="23dp"
-            android:background="@layout/a"
-            android:text="取消"
-            android:textSize="14sp"
-    />
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="257dp"
+        android:background="#008577"
+        android:text="取消"
+        android:textSize="14sp" />
 
 
-    <Button style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/button2"
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/button"
-        android:layout_alignBottom="@+id/button"
-        android:layout_alignLeft="@+id/spinner2"
         android:layout_alignStart="@+id/spinner2"
-        android:background="@layout/a"
-        android:text="查询"
-    />
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_marginStart="-7dp"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginBottom="2dp"
+        android:background="#008577"
+        android:text="查询" />
 
     <Button style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/button3"
@@ -83,15 +100,17 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
         android:layout_below="@+id/button3"
-        android:layout_marginTop="31dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="-49dp"
         android:layout_toEndOf="@+id/button"
         android:layout_toRightOf="@+id/button"
-        android:text="TextView"
-        android:padding="8dp"
         android:background="@layout/textview_border"
+        android:padding="8dp"
+        android:text="TextView"
         android:textSize="18sp" />
 
 </RelativeLayout>
