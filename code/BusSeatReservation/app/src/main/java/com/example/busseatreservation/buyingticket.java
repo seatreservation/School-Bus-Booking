@@ -67,7 +67,7 @@ public class buyingticket extends AppCompatActivity {
         getDate();
        final TextView tx4=(TextView)findViewById(R.id.textView4);
         tx4.setText(year+"-"+(++month)+"-"+day);
-        Button b1=(Button)findViewById(R.id.button3);
+        final View b1=(View)findViewById(R.id.button3);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

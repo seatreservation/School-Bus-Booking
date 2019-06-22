@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="#ffffff"
     android:layout_width="match_parent" android:layout_height="match_parent">
+
 
     <TextView
         android:id="@+id/textView18"
@@ -14,6 +16,8 @@
         android:layout_marginStart="11dp"
         android:layout_marginTop="20dp"
         android:text="车次："
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
         android:textSize="18sp" />
 
     <TextView
@@ -25,6 +29,8 @@
         android:layout_below="@+id/textView18"
         android:layout_marginTop="33dp"
         android:text="时间："
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
         android:textSize="18sp" />
 
     <TextView
@@ -55,17 +61,27 @@
         android:layout_marginTop="38dp"
         android:text="排数："
         android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
         android:layout_below="@+id/textView19"
         android:layout_alignLeft="@+id/textView19"
         android:layout_alignStart="@+id/textView19" />
 
     <Spinner
         android:id="@+id/spinner4"
-        android:layout_width="100dp"
+        style="@style/Widget.AppCompat.Spinner"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView24"
         android:layout_alignLeft="@+id/textView21"
-        android:layout_alignStart="@+id/textView21" />
+        android:layout_alignStart="@+id/textView21"
+        android:background="@drawable/spinner_bg"
+        android:dropDownWidth="200dp"
+        android:paddingRight="14dp"
+        android:popupBackground="#008577"
+        android:popupElevation="3dp"
+        android:stateListAnimator="@drawable/spinner_sla"
+    />
 
     <TextView
         android:id="@+id/textView25"
@@ -76,15 +92,23 @@
         android:layout_below="@+id/spinner4"
         android:layout_marginTop="35dp"
         android:text="座位："
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
         android:textSize="18sp" />
 
     <Spinner
         android:id="@+id/spinner5"
-        android:layout_width="100dp"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView25"
         android:layout_alignLeft="@+id/spinner4"
-        android:layout_alignStart="@+id/spinner4" />
+        android:layout_alignStart="@+id/spinner4"
+        android:background="@drawable/spinner_bg"
+        android:dropDownWidth="200dp"
+        android:paddingRight="14dp"
+        android:popupBackground="#008577"
+        android:popupElevation="3dp"
+        android:stateListAnimator="@drawable/spinner_sla"/>
 
 
     <TextView
@@ -96,6 +120,7 @@
         android:layout_marginTop="20dp"
         android:text="每一排的座位位置如下："
         android:textColor="@color/colorAccent"
+        android:textStyle="bold"
         android:textSize="18sp" />
 
     <ImageView
@@ -106,7 +131,22 @@
         android:layout_below="@+id/textView26"
         android:layout_centerHorizontal="true" />
 
-    <Button
+
+
+
+        <at.markushi.ui.CircleButton
+                android:id="@+id/button7"
+                android:layout_width="64dip"
+                android:layout_height="64dip"
+                android:src="@drawable/ic_action_tick"
+                app:cb_color="#99CC00"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                app:cb_pressedRingWidth="8dip"/>
+
+
+
+   <!--><Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -116,7 +156,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/spinner5"
         android:layout_alignStart="@+id/spinner5"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="10dp" /><-->
 
 
 
