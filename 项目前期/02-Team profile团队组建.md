@@ -15,5 +15,5 @@
 16341012 | 梁钰波（liangyb6） | 测试及文档
 16341024 | 周翔宇（345634262）| 后台
 16341021 | 徐彦青（SunYetSen） | 项目经理
-15952006 | BAKHROROV SAADI（raider2107） | 前台
+15952006 | AKHROROV SAADI（raider2107） | 前台
 15352061 | 陳劍鋒（ChanKimFung） | 前台
