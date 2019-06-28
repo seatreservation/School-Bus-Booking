@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # [](#TOC)目录
 
 &nbsp;&nbsp; 
@@ -20,7 +16,6 @@ layout: default
     
 * 7、Design 设计
     - 7.1 UI design UI 设计
-        - [XX 用例 UI 设计](用例设计)
     - 7.2 [Database design 数据库设计](数据库设计)
     - 7.3 [软件架构文档](架构设计)
     - 7.4 [用例设计](用例设计)
@@ -30,12 +25,3 @@ layout: default
     - [Iteration 1 meeting (2018/04/09)](X1-iteration1-meeting)
     - [Iteration 2 meeting (2018/05/09)](X1-iteration2-meeting)
     - [Iteration 3 meeting (2018/06/30)](X1-iteration3-meeting)
-* [X2 Tech/Work Report](X2-techwork-report)
-* [X3 Final Report](X3-final-report)
-    - 
-    - 
-    - 
-* XX 建模练习
-    - [XX1 Google Tranlate 应⽤](XX1-google-translate-app)
-    - [XX2 建模要求](XX2-modeling-requirements)
-    - [XX3 建模者答案与评价](XX3-modeling-answer)
