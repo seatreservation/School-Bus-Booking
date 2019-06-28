@@ -19,7 +19,7 @@
     - 7.2 [Database design 数据库设计](数据库设计)
     - 7.3 [软件架构文档](架构设计)
     - 7.4 [用例设计](用例设计)
-    - [yon](用户手册.md)
+
 * 8、[Code](Code)
 
 * X1 meet_recording
