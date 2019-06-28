@@ -2,8 +2,8 @@
 
 &nbsp;&nbsp; 
 
-* 1、[About 项目规划](https://github.com/seatreservation/School-Bus-Booking/blob/master/项目前期/01-项目规划.md)
-* 2、[Team profile 团队组建](02-Team profile团队组建)
+* 1、[About 项目规划](01-项目规划.md)
+* 2、[Team profile 团队组建](02-Team profile团队组建.md)
 * 3、[Investigation 项目前期调研](03-investigation)
 * 4、[Vision 项目愿景](04-vision)
 * 5、[Product Backlog 产品特性](05-Product Backlog)
