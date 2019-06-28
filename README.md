@@ -3,7 +3,7 @@
 &nbsp;&nbsp; 
 
 * 1、[About 项目规划](01-项目规划.md)
-* 2、[Team profile 团队组建](02-Team profile团队组建.md)
+* 2、[Team profile 团队组建](项目前期/02-Team profile团队组建.md)
 * 3、[Investigation 项目前期调研](03-investigation)
 * 4、[Vision 项目愿景](04-vision)
 * 5、[Product Backlog 产品特性](05-Product Backlog)
