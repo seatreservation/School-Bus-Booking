@@ -15,10 +15,12 @@
     - 6.5 [System Sequence Diagram 功能模型](06-05-System Sequence Diagram)
     
 * 7、Design 设计
-    - 7.1 UI design UI 设计
+    - 7.1 [UI design](UI设计)
     - 7.2 [Database design 数据库设计](数据库设计)
     - 7.3 [软件架构文档](架构设计)
     - 7.4 [用例设计](用例设计)
+    
+* 8、[Code](Code)
 
 * X1 meet_recording
     - [Inception meeting (2018/03/23)](X1-inception-meeting)
