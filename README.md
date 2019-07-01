@@ -28,8 +28,8 @@
 * 9、[Code](https://github.com/seatreservation/School-Bus-Booking/tree/master/code)
 
 * 10 成品展示
-    - 10.1 [视频1](录屏1)
-    - 10.2 [视频2](录屏2)
+    - 10.1 [视频1](https://github.com/seatreservation/School-Bus-Booking/blob/master/录屏1.mp4)
+    - 10.2 [视频2](https://github.com/seatreservation/School-Bus-Booking/blob/master/录屏2.mp4)
 
 * X1 meet_recording
     - [meeting1](meeting1)
