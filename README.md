@@ -37,7 +37,7 @@
 * X2 [KANBAN](https://github.com/seatreservation/School-Bus-Booking/projects
 )
 
-* X3 [Auditing-Reccords]()
+* X3 [Auditing-Reccords](分工与贡献率)
 
 * X4 Tech/Work Report
     - [16341021-SunYetSen-使用Vue.js裁剪浏览器中图像的方法](https://blog.csdn.net/xuyq23/article/details/93525123)
@@ -46,7 +46,7 @@
     
 * X5 Final Report
 
-    - [16341021 -徐彦青](16341021 徐彦青)
+    - [16341021 -SunYetSen](16341021 徐彦青)
     - [16341012 -梁钰波](16341012-梁钰波)
     - [16341024 -周翔宇](16341024周翔宇个人心得)
     - [15352061 -陈键锋](15352061-陈剑锋)
