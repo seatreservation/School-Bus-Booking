@@ -25,7 +25,7 @@
     - 8.2 [安装部署说明](安装部署说明)
     - 8.3 [用户手册](用户手册)
 
-* 9、[Code](Code)
+* 9、[Code](https://github.com/seatreservation/School-Bus-Booking/tree/master/code)
 
 * 10 成品展示
     - 10.1 [视频1](录屏1)
