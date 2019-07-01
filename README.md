@@ -28,7 +28,21 @@
 * 9、[Code](Code)
 
 * X1 meet_recording
-    - [Inception meeting (2018/03/23)](X1-inception-meeting)
-    - [Iteration 1 meeting (2018/04/09)](X1-iteration1-meeting)
-    - [Iteration 2 meeting (2018/05/09)](X1-iteration2-meeting)
-    - [Iteration 3 meeting (2018/06/30)](X1-iteration3-meeting)
+    - [meeting1](meeting1)
+    - [meeting2](meeting2)
+    - [meeting3](meeting3)
+    - [meeting4](meeting4)
+    - [meeting5](meeting5)
+ 
+* X2 [KANBAN]()
+
+* X3 [Auditing-Reccords]()
+
+* X4 Tech/Work Report
+    - [16341021-SunYetSen-使用Vue.js裁剪浏览器中图像的方法](https://blog.csdn.net/xuyq23/article/details/93525123)
+    -
+    
+    
+* X5 Final Report
+
+    - [16341021 -SunYetSen]()
