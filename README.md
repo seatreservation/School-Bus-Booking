@@ -34,7 +34,8 @@
     - [meeting4](meeting4)
     - [meeting5](meeting5)
  
-* X2 [KANBAN]()
+* X2 [KANBAN](https://github.com/seatreservation/School-Bus-Booking/projects
+)
 
 * X3 [Auditing-Reccords]()
 
@@ -46,4 +47,8 @@
 * X5 Final Report
 
     - [16341021 -SunYetSen](16341021 徐彦青)
-    - []
+    - [16341012 -梁钰波](16341012-梁玉波)
+    - [16341024 -周翔宇](16341024周翔宇个人心得)
+    - [15352061 -陈键锋](15352061-陈剑锋)
+    - [15952006 -萨迪](15952006-AKHROROV_SAAKDI_心得体会)
+    
